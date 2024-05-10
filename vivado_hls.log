@@ -1,0 +1,22 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'abaka' on host 'desktop-f2ktfa0' (Windows NT_amd64 version 6.2) on Thu May 09 12:55:05 +0300 2024
+INFO: [HLS 200-10] In directory 'D:/vivado_hls/iir_filter'
+Sourcing Tcl script 'D:/vivado_hls/iir_filter/IIR_Filter-vhls/solution1/cosim.tcl'
+INFO: [HLS 200-10] Opening project 'D:/vivado_hls/iir_filter/IIR_Filter-vhls'.
+INFO: [HLS 200-10] Opening solution 'D:/vivado_hls/iir_filter/IIR_Filter-vhls/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7a35t-cpg236-1'
+ERROR: [COSIM 212-345] Cosim only supports the following 'ap_ctrl_none' designs: (1) combinational designs; (2) pipelined design with task inteveral of 1; (3) designs with array streaming or hls_stream or AXI4 stream ports.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+command 'ap_source' returned error code
+    while executing
+"source D:/vivado_hls/iir_filter/IIR_Filter-vhls/solution1/cosim.tcl"
+    invoked from within
+"hls::main D:/vivado_hls/iir_filter/IIR_Filter-vhls/solution1/cosim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"

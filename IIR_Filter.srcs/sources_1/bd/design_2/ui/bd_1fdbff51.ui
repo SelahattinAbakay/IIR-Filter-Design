@@ -1,0 +1,23 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-482,-369",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port ap_clk_0 -pg 1 -lvl 0 -x -10 -y -140 -defaultsOSRD
+preplace port ap_rst_0 -pg 1 -lvl 0 -x -10 -y -120 -defaultsOSRD
+preplace portBus x_0 -pg 1 -lvl 0 -x -10 -y -100 -defaultsOSRD
+preplace portBus y_0 -pg 1 -lvl 2 -x 270 -y -120 -defaultsOSRD
+preplace inst IIR_Filter_0 -pg 1 -lvl 1 -x 130 -y -120 -defaultsOSRD
+preplace netloc ap_clk_0_1 1 0 1 NJ -140
+preplace netloc ap_rst_0_1 1 0 1 NJ -120
+preplace netloc x_0_1 1 0 1 NJ -100
+preplace netloc IIR_Filter_0_y 1 1 1 N -120
+levelinfo -pg 1 -10 130 270
+pagesize -pg 1 -db -bbox -sgen -120 -200 380 160
+"
+}
+{
+   "da_clkrst_cnt":"1"
+}
